@@ -1,0 +1,166 @@
+.header {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    border-bottom: 0.5px solid #ddd;
+    position: fixed;
+    z-index: 70;
+}
+
+.header__wrapper {
+    width: 70%;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+} 
+
+.logo > img {
+    width: 110px;
+}
+
+.form {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header__icons {
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+}
+
+.header__search {
+    width: 210px;
+    height: 25px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search {
+    outline: none;
+    border: none;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    left: 0;
+    top: 0;
+    border: 0.2px solid rgb(230, 230, 230);
+    background-color: #FAFAFA;
+    text-indent: 10px;
+    color: black;
+}
+
+.search_icon {
+    z-index: 20;
+    position: absolute;
+    left: 65px;
+    top: auto;
+}
+
+.search::placeholder {
+    text-align: center;
+}
+
+.placeholder::placeholder {
+    text-align: left;
+}
+
+.avatar__svg {
+    width: 25px;
+    height: 25px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+.fa__icon {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+.profile__card {
+    position: absolute;
+    top: 8.5vh;
+    left: 15vh;
+    width: 250px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 5px 0.5px rgba(167, 167, 167, 0.329);
+    display: none;
+}
+
+.activeProfile {
+    display: block;
+}
+
+.profile, .saved, .settings, .account, .signOut {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.profile:hover {
+    background-color: #FAFAFA;
+}
+
+.profile > p {
+    margin-left: 10px;
+}
+
+.saved:hover {
+    background-color: #FAFAFA;
+}
+.saved > p {
+    margin-left: 10px;
+}
+
+.settings:hover {
+    background-color: #FAFAFA;
+}
+
+.settings > p {
+    margin-left: 10px;
+}
+
+.account:hover {
+    background-color: #FAFAFA;
+}
+
+.account > p {
+    margin-left: 10px;
+}
+
+.signOut {
+    border-top: 1px solid rgba(107, 107, 107, 0.212);
+    border-bottom: 1px solid rgba(107, 107, 107, 0.212);
+    background-color: #f0f0f0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.signOut:hover {
+    background-color: #dfdfdf;
+}
+
+.signOut > p {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}

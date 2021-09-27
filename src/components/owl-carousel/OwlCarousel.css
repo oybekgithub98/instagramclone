@@ -1,0 +1,84 @@
+.carousel {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.carousel > h4 {
+    color: #949494;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 99%;
+    height: 33vh;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 10px 0;
+    border-radius: 4px;
+    position: relative;
+}
+
+.card > img {
+    width: 55px !important;
+    height: 55px;
+    border-radius: 50%;
+    margin: 25px 0 20px 0;
+}
+
+.card > h4 {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.829);
+    width: 80%;
+    margin: auto;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card > p {
+    font-size: 12px;
+}
+
+/* left and right buttons */
+/* .owl-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(9, 255, 0);
+    width: 100%;
+    left: 0;
+    top: 80px;
+} */
+
+.card > button {
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    background-color: #0095F6;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.remove {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}

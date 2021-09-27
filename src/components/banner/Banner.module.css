@@ -1,0 +1,25 @@
+.banner {
+    width: 100%;
+}
+
+.banner__wrapper {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 55px;
+}
+
+.content {
+    width: 65%;
+    height: auto;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    right: 31.5vh;
+    top: 9vh;
+}
